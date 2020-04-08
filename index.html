@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cooler</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- CSS3 -->
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+
+    <!-- Fontawesome -->
+    <!-- <script src="https://kit.fontawesome.com/a076d05399.js"></script> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    <!-- <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" /> -->
+    <!-- Slick -->
+    <!-- <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" /> -->
+</head>
+
+<body>
+    <!-- navbars -->
+    <section class="nav">
+        <nav id="navbar">
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <label id="logo" class="logo">DevCooler</label>
+            <ul id="ul-nav">
+                <li><a class="active" href="#">Home</a></li>
+                <li><a class="nav-a" href="#about">About</a></li>
+                <li><a class="nav-a" href="#services">Services</a></li>
+                <li><a class="nav-a" href="#work">Work</a></li>
+                <li><a class="nav-a scrollLink" href="#blog">Blog</a></li>
+                <li><a class="nav-a" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </section>
+
+    <!-- intro -->
+    <section class="intro">
+        <div class="intro">
+            <div class="intro-overlay">
+            </div>
+            <div class="intro-contain">
+                <!-- <div class="table-cell"> -->
+                    <div class="container">
+                        <h1 class="intro-tittle">I am Thanh Do</h1>
+                        <p id="word" class="intro-job"></p>
+                    </div>
+                <!-- </div> -->
+            </div>
+            <!-- <video src="/img/videobg.mp4" autoplay loop width=100%></video> -->
+
+        </div>
+    </section>
+
+    <!-- about -->
+    <section id="about" class="about">
+        <div class="container row">
+            <div class="col-12 col-md-6 container-left">
+                <div class="container-left-person row">
+                    <div class="col-sm-5 col-md-6 img">
+                        <img src="img/avatar.jpg" alt="">
+                    </div>
+                    <div class="col-sm-7 col-md-6 info">
+                        <p><span class="bold">Name:</span> Le Thanh Do</p>
+                        <p><span class="bold">Profile:</span>: full stack developer</p>
+                        <p><span class="bold">Email:</span> thanhdochita@gmail.com</p>
+                        <p><span class="bold">Phone:</span> (+84) 389 201 616</p>
+                    </div>
+                </div>
+                <div class="container-left-skill">
+                    <p class="tittle">
+                        <span>Skill</span>
+                    </p>
+                    <div class="skill">
+                        <div class="info-skill">
+                            <span>HTML</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85"
+                                aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="info-skill">
+                            <span>CSS3</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="85"
+                                aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="info-skill">
+                            <span>PHP</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="85"
+                                aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="info-skill">
+                            <span>JavaScript</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="85"
+                                aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-12 col-md-6 container-right">
+                <h5 class="tittle-right">About me</h5>
+                <div class="highline"></div>
+                <p class="lead">
+                    I am a talented, ambitious and hardworking individual,
+                     with broad skills and experience in digital and printed 
+                     marketing, social media and leading projects.
+                </p>
+                <p class="lead">Furthermore, I am adept at handling multiple 
+                    tasks on a daily basis competently and at working
+                     well under pressure.
+                </p>
+                <p class="lead">A key strength is communication; building strong
+                     relationships with people in order to deliver the best results.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- services -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="tittle">
+                <h3>Services</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                </p>
+                <div class="highline"></div>
+            </div>
+            <div class="contain row">
+                <div class="col-12 col-md-4">
+                    <div class="service-box">
+                        <div class="service-icon">
+                            <span class="icon-circle">
+                                <i class="far fa-laptop-code"></i>
+                            </span>
+                        </div>
+                        <div class="service-content">
+                            <h2>Web Design</h2>
+                            <p>Lorem ipsum dolor sit amet
+                                consectetur adipisicing elit.
+                                Magni adipisci eaque autem
+                                fugiat! Quia, provident vitae!
+                                Magni tempora perferendis eum non
+                                provident.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="service-box">
+                        <div class="service-icon">
+                            <span class="icon-circle">
+                                <i class="fas fa-code"></i>
+                            </span>
+                        </div>
+                        <div class="service-content">
+                            <h2>Web Development</h2>
+                            <p>Lorem ipsum dolor sit amet
+                                consectetur adipisicing elit.
+                                Magni adipisci eaque autem
+                                fugiat! Quia, provident vitae!
+                                Magni tempora perferendis eum non
+                                provident.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="service-box">
+                        <div class="service-icon">
+                            <span class="icon-circle">
+                                <i class="fas fa-mobile-alt"></i>
+                            </span>
+                        </div>
+                        <div class="service-content">
+                            <h2>Reponsive Design</h2>
+                            <p>Lorem ipsum dolor sit amet
+                                consectetur adipisicing elit.
+                                Magni adipisci eaque autem
+                                fugiat! Quia, provident vitae!
+                                Magni tempora perferendis eum non
+                                provident.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- counter -->
+    <section class="counter">
+        <div class="overlay">
+        </div>
+        <div class="container row">
+            <div class="col-12 col-md-3">
+                <div class="counter-box">
+                    <div class="counter-icon">
+                        <i class="fas fa-check"></i>
+                    </div>
+                    <div class="counter-num">
+                        <p>45</p>
+                        <span>WORKS COMPLETED</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3">
+                <div class="counter-box">
+                    <div class="counter-icon">
+                        <i class="far fa-calendar-alt"></i>
+                    </div>
+                    <div class="counter-num">
+                        <p>2</p>
+                        <span>YEARS OF EXPERIENCE</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3">
+                <div class="counter-box">
+                    <div class="counter-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="counter-num">
+                        <p>150</p>
+                        <span>TOTAL CLIENTS</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3">
+                <div class="counter-box">
+                    <div class="counter-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <div class="counter-num">
+                        <p>4</p>
+                        <span>AWARD WON</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio -->
+    <section class="portfolio">
+        <div class="container">
+            <div class="tittle">
+                <h3>Portfolio</h3>
+                <p> The application of systematic management to the investments, projects and activities of enterprise Information Technology (IT) departments.
+                </p>
+                <div class="highline"></div>
+            </div>
+            <div class="contain row">
+                <div class="col-12 col-md-4">
+                    <a href="#">
+                        <div class="portfolio-box">
+                            <div class="portfolio-img ">
+                                <div class="portfolio-img1 portfolio-img-com"></div>
+                            </div>
+                            <div class="portfolio-content">
+                                <div class="col-sm-10 left">
+                                    <h2 class="w-tittle">Hanoi University Of Culture</h2>
+                                    <div class="w-more">
+                                        <span class="type">Web Design</span>
+                                        /
+                                        <span class="date">18 Sep. 2018</span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-2 right">
+                                    <i class="fal fa-plus-circle"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                </div>
+                <div class="col-12 col-md-4">
+                    <a href="#">
+                        <div class="portfolio-box">
+                            <div class="portfolio-img">
+                                <div class="portfolio-img2 portfolio-img-com"></div>
+                            </div>
+                            <div class="portfolio-content">
+                                <div class="col-sm-10 left">
+                                    <h2 class="w-tittle">History of Vietnam</h2>
+                                    <div class="w-more">
+                                        <span class="type">Web Design</span>
+                                        /
+                                        <span class="date">18 Sep. 2020</span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-2 right">
+                                    <i class="fal fa-plus-circle"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                </div>
+                <div class="col-12 col-md-4">
+                    <a href="#">
+                        <div class="portfolio-box">
+                            <div class="portfolio-img">
+                                <div class="portfolio-img3 portfolio-img-com"></div>
+                            </div>
+                            <div class="portfolio-content">
+                                <div class="col-sm-10 left">
+                                    <h2 class="w-tittle">Con Dao Prison</h2>
+                                    <div class="w-more">
+                                        <span class="type">Web Design</span>
+                                        /
+                                        <span class="date">12 Sep. 2020</span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-2 right">
+                                    <i class="fal fa-plus-circle"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                </div>
+                <div class="col-12 col-md-4">
+                    <a href="#">
+                        <div class="portfolio-box">
+                            <div class="portfolio-img">
+                                <div class="portfolio-img4 portfolio-img-com"></div>
+                            </div>
+                            <div class="portfolio-content">
+                                <div class="col-sm-10 left">
+                                    <h2 class="w-tittle">Daily Yoga</h2>
+                                    <div class="w-more">
+                                        <span class="type">Web Design</span>
+                                        /
+                                        <span class="date">18 Sep. 2020</span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-2 right">
+                                    <i class="fal fa-plus-circle"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                </div>
+                <div class="col-12 col-md-4">
+                    <a href="#">
+                        <div class="portfolio-box">
+                            <div class="portfolio-img">
+                                <div class="portfolio-img5 portfolio-img-com"></div>
+                            </div>
+                            <div class="portfolio-content">
+                                <div class="col-sm-10 left">
+                                    <h2 class="w-tittle">Learn Code Website</h2>
+                                    <div class="w-more">
+                                        <span class="type">Web Design</span>
+                                        /
+                                        <span class="date">18 Sep. 2018</span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-2 right">
+                                    <i class="fal fa-plus-circle"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                </div>
+                <div class="col-12 col-md-4">
+                    <a href="#">
+                        <div class="portfolio-box">
+                            <div class="portfolio-img">
+                                <div class="portfolio-img6 portfolio-img-com"></div>
+                            </div>
+                            <div class="portfolio-content">
+                                <div class="col-sm-10 left">
+                                    <h2 class="w-tittle">Clothes Shop</h2>
+                                    <div class="w-more">
+                                        <span class="type">Web Design</span>
+                                        /
+                                        <span class="date">18 Sep. 2018</span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-2 right">
+                                    <i class="fal fa-plus-circle"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- testimonial -->
+    <section class="testimonial">
+            <div class="for-slick-slider multiple-items">
+                <div class="items">
+                    <img src="img/bg.jpg" alt="">
+                    <div class="overlay"></div>
+                </div>
+                <div class="items">
+                    <img src="img/bg.jpg" alt="">
+                    <div class="overlay"></div>
+                </div>
+                <div class="items">
+                    <img src="img/bg.jpg" alt="">                    
+                    <div class="overlay"></div>
+
+                </div>
+                <div class="items">
+                    <img src="img/bg.jpg" alt="">
+                    <div class="overlay"></div>
+                </div>
+                <div class="items">
+                    <img src="img/bg.jpg" alt="">
+                    <div class="overlay"></div> 
+                </div>
+            </div>
+    </section>
+
+    <!-- blog -->
+    <section id="blog" class="blog">
+        <div class="container">
+            <div class="tittle">
+                <h3>Blog</h3>
+                <p>Over the last 3 years I’ve written 114 articles on this site about software development, management, business, and the Internet. <br> To make it easy to find the best ones, here are some reading lists, sorted by topic.
+                </p>
+                <div class="highline"></div>
+            </div>
+            <div class="contain row">
+                <div class="col-12 col-md-4">
+                    <div class="blog-box">
+                        <a href="https://www.joelonsoftware.com/2019/12/05/so-hows-that-retirement-thing-going-anyway/" target="_blank">
+                            <div class="blog-img">
+                                <img src="img/blog1.jpg" alt="">
+                            </div>
+                        </a>
+
+                        <div class="blog-content">
+                            <!-- <div class="blog-category-box">
+                                <h6>Relax</h6>
+                            </div> -->
+                            <div class="blog-category-tittle">
+                                <a href="https://www.joelonsoftware.com/2019/12/05/so-hows-that-retirement-thing-going-anyway/" target="_blank">
+                                    <h3>So, how’s that retirement thing going, anyway?</h3>
+                                </a>
+                            </div>
+                            <div class="blog-category-description">
+                                <p>For the last couple of months, Prashanth Chandrasekar 
+                                    has been getting settled in as the new CEO of Stack Overflow. 
+                                    <!-- I’m still going on some customer calls and have a weekly meeting 
+                                    with him, but I have freed up a lot of time. I’m also really 
+                                    enjoying discovering just how little I knew about running
+                                     medium-sized companies, as I watch Prashanth rearrange
+                                      everything—for the better. It’s really satisfying to realize
+                                       that the best possible outcome for me is if he proves what
+                                        a bad CEO I was by doing a much better job running the company. -->
+                                </p>
+                            </div>
+                        </div>
+                        <div class="blog-category-footer">
+                            <a href="#">
+                                <div class="author">
+                                    <div class="author-img">
+                                        <img src="img/avatar.jpg" alt="">
+                                    </div>
+                                    <div class="author-name">
+                                        <span>Thanh Do</span>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <div class="date">
+                                <div class="date-icon">
+                                    <i class="far fa-clock"></i>
+                                </div>
+                                <div class="date-time">
+                                    <p>DECEMBER 5, 2020</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="blog-box">
+                        <a href="https://www.joelonsoftware.com/2000/04/10/controlling-your-environment-makes-you-happy/" target="_blank">
+                            <div class="blog-img">
+                                <img src="img/blog2.jpg" alt="">
+                            </div>
+                        </a>
+
+                        <div class="blog-content">
+                            <!-- <div class="blog-category-box">
+                                <h6>SOFTWARE DESIGNER</h6>
+                            </div> -->
+                            <div class="blog-category-tittle">
+                                <a href="https://www.joelonsoftware.com/2000/04/10/controlling-your-environment-makes-you-happy/" target="_blank">
+                                    <h3>The Joel Test: 12 Steps to Better Code</h3>
+                                </a>
+                            </div>
+                            <div class="blog-category-description">
+                                <p>Have you ever heard of SEMA? It’s a fairly esoteric system
+                                     for measuring how good a software team is. No, wait!
+                                      Don’t follow that link! It will take you about six years
+                                       just to understand that stuff. So I’ve come up with my own,
+                                        highly irresponsible, sloppy test to rate the quality of a software team.
+                                         The great part about it is that it takes about 3 minutes.
+                                          With all the time you save, you can go to medical school.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="blog-category-footer">
+                            <a href="#">
+                                <div class="author">
+                                    <div class="author-img">
+                                        <img src="img/avatar.jpg" alt="">
+                                    </div>
+                                    <div class="author-name">
+                                        <span>Thanh Do</span>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <div class="date">
+                                <div class="date-icon">
+                                    <i class="far fa-clock"></i>
+                                </div>
+                                <div class="date-time">
+                                    <p>AUGUST 9, 2020</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="blog-box">
+                        <a href="https://www.joelonsoftware.com/2005/01/02/advice-for-computer-science-college-students/" target="_blank">
+                            <div class="blog-img">
+                                <img src="img/blog3.jpg" alt="">
+                            </div>
+                        </a>
+
+                        <div class="blog-content">
+                            <!-- <div class="blog-category-box">
+                                <h6>NEW DEVELOPER</h6>
+                            </div> -->
+                            <div class="blog-category-tittle">
+                                <a href="https://www.joelonsoftware.com/2005/01/02/advice-for-computer-science-college-students/" target="_blank">
+                                    <h3>Advice for Computer Science College Students</h3>
+                                </a>
+                            </div>
+                            <div class="blog-category-description">
+                                <p>Despite the fact that it was only a year or two ago that
+                                     I was blubbering about how rich Windows GUI clients were
+                                      the wave of the future, college students nonetheless do
+                                       occasionally email me asking for career advice, and since
+                                        it’s recruiting season, I thought I’d write up my standard 
+                                        advice which they can read, laugh at, and ignore.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="blog-category-footer">
+                            <a href="#">
+                                <div class="author">
+                                    <div class="author-img">
+                                        <img src="img/avatar.jpg" alt="">
+                                    </div>
+                                    <div class="author-name">
+                                        <span>Thanh Do</span>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <div class="date">
+                                <div class="date-icon">
+                                    <i class="far fa-clock"></i>
+                                </div>
+                                <div class="date-time">
+                                    <p>JANUARY 2, 2020</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- contact -->
+    <section class="contact">
+        <div class="container row">
+            <div class="col-12 col-md-6 container-left">
+                <h2 class="h1-responsive font-weight-bold text-center my-4">Send Messege Us</h2>
+                <div class="highline"></div>
+                <div class="row">
+                    <div class="col-md-12 mb-md-0 mb-12">
+                        <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                            <div class="row">
+                                <div class="col-md-12 form-input">
+                                    <div class="md-form mb-0">
+                                        <input type="text" id="name" name="name" class="form-control"
+                                            placeholder="Your name">
+                                    </div>
+                                </div>
+
+                                <div class="col-md-12 form-input">
+                                    <div class="md-form mb-0">
+                                        <input type="text" id="email" name="email" class="form-control"
+                                            placeholder="Your email">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row form-input">
+                                <div class="col-md-12">
+                                    <div class="md-form mb-0">
+                                        <input type="text" id="subject" name="subject" class="form-control"
+                                            placeholder="Subject">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row form-input">
+                                <div class="col-md-12">
+                                    <div class="md-form">
+                                        <textarea type="text" id="message" name="message" rows="2"
+                                            class="form-control md-textarea" placeholder="Your message"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+
+                        <div class="text-center text-md-left form-input">
+                            <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send
+                                Messege</a>
+                        </div>
+                        <div class="status"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 container-right">
+                <h2 class="h1-responsive font-weight-bold text-center my-4">Get In Touch</h2>
+                <div class="highline"></div>
+                <p class="lead">Do you have any questions? Please do not hesitate
+                    to contact us directly. Our team will come back to you within
+                    a matter of hours to help you.
+                </p>
+                <div class="col-md-12 text-center">
+                    <ul class="">
+                        <li class="d-flex"><i class="fas fa-map-marker-alt fa"></i>
+                            <p>155 Tho An, Dan Phuong, Ha Noi</p>
+                        </li>
+
+                        <li class="d-flex"><i class="fas fa-phone  fa"></i>
+                            <p>+ 03 892 016 16</p>
+                        </li>
+
+                        <li class="d-flex"><i class="fas fa-envelope  fa"></i>
+                            <p>thanhdochita@gmail.com</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="social">
+                    <div class="icon">
+                        <a href="https://www.facebook.com/lethanhdo19" target="_blank">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </div>
+                    <div class="icon">
+                        <a href="https://www.instagram.com/thanhdo.cooler/" target="_blank">
+                            <i class="fab fa-instagram"></i>
+
+                        </a>
+                    </div>
+                    <div class="icon">
+                        <a href="https://www.twitter.com/" target="_blank">
+                            <i class="fab fa-twitter"></i>
+
+                        </a>
+                    </div>
+                    <div class="icon">
+                        <a href="https://www.pinterest.com/" target="_blank">
+                            <i class="fab fa-pinterest-p"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="overlay">
+        </div>
+        <footer>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="copyright-box">
+                        <p class="copyright">© Copyright <strong>DevCooler</strong>. All Rights Reserved</p>
+                        <div class="creadit">
+                            Design by <a href="#">Bootstrap</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+    <!-- btn-scroll-top -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+        <i class="fas fa-arrow-to-top"></i>
+    </button>
+
+    <script src="https://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+    
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/style.js"></script>
+</body>
+
+</html>
