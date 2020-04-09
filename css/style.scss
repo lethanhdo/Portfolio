@@ -75,7 +75,12 @@ body{
     nav ul li a{
         font-size: 16px!important;
     }
-
+    .intro{
+        background: url(../img/banner.jpg) no-repeat!important;
+        background-size: cover!important;
+        background-position: center!important;
+        background-attachment: fixed!important;
+    }
 }
 
 @media only screen and (max-width: 858px){
@@ -122,10 +127,10 @@ body{
         font-size: 1.5rem!important;
     }
     .intro{
-        background: url(../img/banner.jpg) no-repeat;
-        background-size: cover;
-        background-position: center;
-        background-attachment: fixed;
+        background: url(../img/banner.jpg) no-repeat!important;
+        background-size: cover!important;
+        background-position: center!important;
+        background-attachment: fixed!important;
     }
 }
 //intro
