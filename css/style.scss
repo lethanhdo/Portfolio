@@ -44,7 +44,7 @@ body{
                     padding: 7px 13px;
                 }.active, :hover{
                     text-decoration: none;
-                    background: #1b9bff;
+                    background: #1e1e1e;
                     transition: .5s;
                 }
                
@@ -213,6 +213,11 @@ body{
                         display: flex;
                         justify-content: space-between;
                     }
+                    .progress{
+                        &-bar{
+                            background: #757575;
+                        }
+                    }
                 }
                 
             }
@@ -225,7 +230,7 @@ body{
             }
             .highline{
                 height: 3px;
-                background-color: #0078ff;
+                background-color: #1e1e1e;
                 width: 100px;
             }
             .lead{
@@ -264,7 +269,7 @@ body{
             .highline{
                 width: 40px;
                 height: 5px;
-                background-color: #0078ff;
+                background-color: #1e1e1e;
                 margin: 0 auto;
             }
             margin-bottom: 4rem;
@@ -292,12 +297,12 @@ body{
                         font-size: 3.5rem;
                     }
                     border-radius: 50%;
-                    box-shadow: 0 0 0 10px #0078ff;
+                    box-shadow: 0 0 0 10px #1e1e1e;
                 }
             }:hover{
                 .service-icon{
                     color: #fff;
-                    background: #0078ff;
+                    background: #1e1e1e;
                     box-shadow: 0 0 0 10px #a3c2e6;
                 }
             }
@@ -318,7 +323,7 @@ body{
     justify-content: center;
     align-items: center;
     .overlay{
-        background: #0078ff;
+        background: #1e1e1e;
         position: absolute;
         top: 0;
         left: 0px;
@@ -387,7 +392,7 @@ body{
             .highline{
                 width: 40px;
                 height: 5px;
-                background-color: #0078ff;
+                background-color: #1e1e1e;
                 margin: 0 auto;
             }
             margin-bottom: 4rem;
@@ -441,7 +446,7 @@ body{
                             .w-more{
                                 font-size: .8rem;
                                 .type{
-                                    color: #0078ff;
+                                    color: #1e1e1e;
                                 }
                                 .date{
                                     color: #4e4e4e;
@@ -452,7 +457,7 @@ body{
                             display: flex;
                             justify-content: flex-end;
                             i{
-                                color: #0078ff;
+                                color: #1e1e1e;
                                 font-size: 2rem;
                             }
                         }
@@ -548,7 +553,7 @@ body{
             .highline{
                 width: 40px;
                 height: 5px;
-                background-color: #0078ff;
+                background-color: #1e1e1e;
                 margin: 0 auto;
             }
             margin-bottom: 4rem;
@@ -592,7 +597,7 @@ body{
                         justify-content: center;
                         align-items: center;
                         color: #fff;
-                        background-color: #0078ff;
+                        background-color: #1e1e1e;
                         padding: 1% 15%;
                         border-radius: 5px;
                         h6{
@@ -612,7 +617,7 @@ body{
                                 overflow: hidden;
                                 display:-webkit-box;
                             }:hover{
-                                color: #0078ff;
+                                color: #1e1e1e;
                             }
                         }
                     }
@@ -662,7 +667,7 @@ body{
                     }
                     .author:hover{
                         .author-name{
-                            color: #0078ff;
+                            color: #1e1e1e;
                         }
                     }
                     .date{
@@ -704,7 +709,7 @@ body{
     justify-content: center;
     align-items: center;
     .overlay{
-        background: #0078ff;
+        background: #1e1e1e;
         position: absolute;
         top: 0;
         left: 0px;
@@ -762,7 +767,7 @@ body{
                     }
                     i{
                         margin: 0 3px 0 0;
-                        color: #0078ff;
+                        color: #1e1e1e;
                     }
                 }
             }
@@ -781,7 +786,7 @@ body{
                         align-items: center;
                         text-decoration: none;
                         border-radius: 50%;
-                        border: 4px solid #0078ff;
+                        border: 4px solid #1e1e1e;
                         i{
                             color: #000;
                         }
@@ -820,7 +825,7 @@ body{
     }
     .highline{
         height: 3px;
-        background-color: #0078ff;
+        background-color: #1e1e1e;
         width: 100px;
     }
 }
@@ -837,7 +842,7 @@ body{
     font-size: 18px;
     border: none;
     outline: none;
-    background-color: #0082e6;
+    background-color: #1e1e1e;
     color: white;
     cursor: pointer;
     border-radius: 50%;

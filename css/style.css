@@ -56,7 +56,7 @@ body {
 
 .nav nav ul li .active, .nav nav ul li :hover {
   text-decoration: none;
-  background: #1b9bff;
+  background: #1e1e1e;
   -webkit-transition: .5s;
   transition: .5s;
 }
@@ -229,6 +229,10 @@ body {
           justify-content: space-between;
 }
 
+.about .container .container-left-skill .skill .progress-bar {
+  background: #757575;
+}
+
 .about .container .container-right .tittle-right {
   font-weight: 600;
   color: #1e1e1e;
@@ -237,7 +241,7 @@ body {
 
 .about .container .container-right .highline {
   height: 3px;
-  background-color: #0078ff;
+  background-color: #1e1e1e;
   width: 100px;
 }
 
@@ -299,7 +303,7 @@ body {
 .services .container .tittle .highline {
   width: 40px;
   height: 5px;
-  background-color: #0078ff;
+  background-color: #1e1e1e;
   margin: 0 auto;
 }
 
@@ -338,8 +342,8 @@ body {
       -ms-flex-align: center;
           align-items: center;
   border-radius: 50%;
-  -webkit-box-shadow: 0 0 0 10px #0078ff;
-          box-shadow: 0 0 0 10px #0078ff;
+  -webkit-box-shadow: 0 0 0 10px #1e1e1e;
+          box-shadow: 0 0 0 10px #1e1e1e;
 }
 
 .services .container .contain .service-box .service-icon .icon-circle {
@@ -350,7 +354,7 @@ body {
 
 .services .container .contain :hover .service-icon {
   color: #fff;
-  background: #0078ff;
+  background: #1e1e1e;
   -webkit-box-shadow: 0 0 0 10px #a3c2e6;
           box-shadow: 0 0 0 10px #a3c2e6;
 }
@@ -375,7 +379,7 @@ body {
 }
 
 .counter .overlay {
-  background: #0078ff;
+  background: #1e1e1e;
   position: absolute;
   top: 0;
   left: 0px;
@@ -492,7 +496,7 @@ body {
 .portfolio .container .tittle .highline {
   width: 40px;
   height: 5px;
-  background-color: #0078ff;
+  background-color: #1e1e1e;
   margin: 0 auto;
 }
 
@@ -568,7 +572,7 @@ body {
 }
 
 .portfolio .container .contain a .portfolio-box .portfolio-content .left .w-more .type {
-  color: #0078ff;
+  color: #1e1e1e;
 }
 
 .portfolio .container .contain a .portfolio-box .portfolio-content .left .w-more .date {
@@ -585,7 +589,7 @@ body {
 }
 
 .portfolio .container .contain a .portfolio-box .portfolio-content .right i {
-  color: #0078ff;
+  color: #1e1e1e;
   font-size: 2rem;
 }
 
@@ -702,7 +706,7 @@ body {
 .blog .container .tittle .highline {
   width: 40px;
   height: 5px;
-  background-color: #0078ff;
+  background-color: #1e1e1e;
   margin: 0 auto;
 }
 
@@ -766,7 +770,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   color: #fff;
-  background-color: #0078ff;
+  background-color: #1e1e1e;
   padding: 1% 15%;
   border-radius: 5px;
 }
@@ -789,7 +793,7 @@ body {
 }
 
 .blog .container .contain .blog-box .blog-content .blog-category-tittle a :hover {
-  color: #0078ff;
+  color: #1e1e1e;
 }
 
 .blog .container .contain .blog-box .blog-content .blog-category-description {
@@ -860,7 +864,7 @@ body {
 }
 
 .blog .container .contain .blog-box .blog-category-footer .author:hover .author-name {
-  color: #0078ff;
+  color: #1e1e1e;
 }
 
 .blog .container .contain .blog-box .blog-category-footer .date {
@@ -922,7 +926,7 @@ body {
 }
 
 .contact .overlay {
-  background: #0078ff;
+  background: #1e1e1e;
   position: absolute;
   top: 0;
   left: 0px;
@@ -995,7 +999,7 @@ body {
 
 .contact .container-right .text-center ul li i {
   margin: 0 3px 0 0;
-  color: #0078ff;
+  color: #1e1e1e;
 }
 
 .contact .container-right .social {
@@ -1024,7 +1028,7 @@ body {
           align-items: center;
   text-decoration: none;
   border-radius: 50%;
-  border: 4px solid #0078ff;
+  border: 4px solid #1e1e1e;
 }
 
 .contact .container-right .social .icon a i {
@@ -1069,7 +1073,7 @@ body {
 
 .contact .highline {
   height: 3px;
-  background-color: #0078ff;
+  background-color: #1e1e1e;
   width: 100px;
 }
 
@@ -1086,7 +1090,7 @@ body {
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: #0082e6;
+  background-color: #1e1e1e;
   color: white;
   cursor: pointer;
   border-radius: 50%;
