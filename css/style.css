@@ -138,6 +138,9 @@ body {
     background-position: center !important;
     background-attachment: fixed !important;
   }
+  .counter-box {
+    margin-bottom: 10%;
+  }
 }
 
 .intro {
