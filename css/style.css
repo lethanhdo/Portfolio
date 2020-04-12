@@ -144,7 +144,7 @@ body {
 }
 
 .intro {
-  background: url(../img/banner.jpg) no-repeat;
+  background: url(../img/banner2.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -185,12 +185,19 @@ body {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  text-align: left;
 }
 
 .intro-contain .container .intro-tittle {
   color: #fff;
   font-weight: 600;
   font-size: 4.5rem;
+}
+
+.intro-contain .container h2 {
+  color: #fff !important;
+  font-weight: 600 !important;
+  font-size: 2rem !important;
 }
 
 .intro-contain .container .intro-job {
